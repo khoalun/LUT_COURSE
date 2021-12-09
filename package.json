@@ -6,10 +6,9 @@
   "scripts": {
     "sass": "node-sass -w scss/ -o dist/css/ --recursive"
   },
-  "author": "Khoa Bui",
+  "author": "Brad Traversy",
   "license": "MIT",
   "dependencies": {
-    "node-sass": "^6.0.1",
-    "sass": "^1.43.5"
-  } 
+    "node-sass": "^4.9.2"
+  }
 }
