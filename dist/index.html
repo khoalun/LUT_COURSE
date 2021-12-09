@@ -10,10 +10,15 @@
       integrity="sha384-hWVjflwFxL6sNzntih27bfxkr27PmbbK/iSvJ+a4+0owXq79v+lsFkW54bOGbiDQ"
       crossorigin="anonymous"
     />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.14.0/devicon.min.css"
+    />
     <link rel="stylesheet" href="css/main.css" />
-    <title>Welcome To My Portfolio</title>
+    <title>Welcome to my Porfolio</title>
   </head>
   <body id="bg-img">
+    <!-- <div class="overlay"></div> -->
     <header>
       <div class="menu-btn">
         <div class="btn-line"></div>
@@ -41,28 +46,90 @@
         </ul>
       </nav>
     </header>
-
     <main id="home">
       <h1 class="lg-heading">
-        John
-        <span class="text-secondary">Doe</span>
+        <div class="portrait"></div>
+        Khoa
+        <span class="text-secondary">Bui</span>
+        <img class="wave" src="https://twemoji.maxcdn.com/2/72x72/1f44b.png" />
       </h1>
       <h2 class="sm-heading">
-        Web Developer, Programmer, Designer & Entrepreneur
+         Web Developer 
       </h2>
-      <div class="icons">
-        <a href="#!">
-          <i class="fab fa-twitter fa-2x"></i>
-        </a>
-        <a href="#!">
-          <i class="fab fa-facebook fa-2x"></i>
-        </a>
-        <a href="#!">
-          <i class="fab fa-linkedin fa-2x"></i>
-        </a>
-        <a href="#!">
-          <i class="fab fa-github fa-2x"></i>
-        </a>
+      <!--Tech Stack section-->
+      <div class="iconsField">
+        <h3 class="iconsField__title">Tech Stack</h3>
+        <div class="iconsField__cover">
+          <i
+            class="devicon-javascript-plain colored iconsField__languageIcons"
+            aria-hidden="true"
+            title="javascript"
+          ></i>
+          <i
+            class="devicon-typescript-plain colored iconsField__languageIcons"
+            aria-hidden="true"
+            title="typescript"
+          ></i>
+          <i
+            class="devicon-react-original colored iconsField__languageIcons"
+            aria-hidden="true"
+            title="react"
+          ></i>
+          <i
+            class="devicon-materialui-plain colored iconsField__languageIcons"
+            aria-hidden="true"
+            title="mui"
+          ></i>
+          <i
+            class="devicon-redux-original colored iconsField__languageIcons"
+            aria-hidden="true"
+            title="redux"
+          ></i>
+          <i
+            class="devicon-nextjs-plain colored iconsField__languageIcons"
+            aria-hidden="true"
+            title="nextjs"
+          ></i>
+          <i
+            class="devicon-nodejs-plain colored iconsField__languageIcons"
+            aria-hidden="true"
+            title="nodejs"
+          ></i>
+          <i
+            class="devicon-postgresql-plain colored iconsField__languageIcons"
+            aria-hidden="true"
+            title="postgresql"
+          ></i>
+          <i
+            class="devicon-graphql-plain colored iconsField__languageIcons"
+            aria-hidden="true"
+            title="graphql"
+          ></i>
+        </div>
+      </div>
+      <!--Social Media section-->
+      <div class="iconsField">
+        <div class="iconsField__title">You can find me via:</div>
+        <div class="iconsField__cover">
+          <a href="https://www.instagram.com/thiennhan2905" target="_blank">
+            <i class="fab fa-instagram fa-2x iconsField__socialMediaIcons"></i>
+          </a>
+          <a
+            href="https://www.facebook.com/khoa.bui.37604303"
+            target="_blank"
+          >
+            <i class="fab fa-facebook fa-2x iconsField__socialMediaIcons"></i>
+          </a>
+          <a
+            href="https://www.linkedin.com/in/khoa-bui-a1b0071b4/"
+            target="_blank"
+          >
+            <i class="fab fa-linkedin fa-2x iconsField__socialMediaIcons"></i>
+          </a>
+          <a href="https://github.com/khoalun" target="_blank">
+            <i class="fab fa-github fa-2x iconsField__socialMediaIcons"></i>
+          </a>
+        </div>
       </div>
     </main>
 
