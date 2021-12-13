@@ -87,7 +87,7 @@
     .menu-branding .portrait {
       width: 250px;
       height: 250px;
-      background: url("../img/portrait_250.jpg");
+      background: url("../img/juanito-medina-dbfz-portraits-01-goku-super-saiyan.jpg");
       border-radius: 50%;
       border: solid 3px #E8BE02; }
   .menu .nav-item {
@@ -194,7 +194,7 @@ main {
   main .portrait {
     width: 250px;
     height: 250px;
-    background: url("../img/portrait_250.jpg");
+    background: url("../img/juanito-medina-dbfz-portraits-01-goku-super-saiyan.jpg");
     border-radius: 50%;
     border: solid 3px #E8BE02; }
   main#home {
@@ -230,7 +230,8 @@ main {
 .about-info {
   display: grid;
   grid-gap: 30px;
-  grid-template-areas: "bioimage bio bio" "job1 job2 job3";
+  grid-template-areas: "bioimage bio bio"
+ "job1 job2 job3";
   grid-template-columns: repeat(3, 1fr); }
   .about-info .bio-image {
     grid-area: bioimage;
@@ -527,7 +528,8 @@ footer {
       width: 150px;
       height: 150px; }
   .about-info {
-    grid-template-areas: "bioimage" "bio";
+    grid-template-areas: "bioimage"
+ "bio";
     grid-template-columns: 1fr; }
   .projects {
     grid-template-columns: repeat(2, 1fr); } }
