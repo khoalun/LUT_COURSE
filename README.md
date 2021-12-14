@@ -4,9 +4,9 @@ This repository is made by Bui Khoa, student number is: x106927, student email i
 
 This repository contains 2 folders: CourseWork and CourseProject
 
-The link to the project I completed: 
+The link to the project I completed: https://loving-lichterman-06cd2d.netlify.app/#portfolio
 
-The link to a video of project running: 
+The link to a video of project running: https://drive.google.com/file/d/1cVTAaErF4HbnGRxVVUuwL46dg9p9mqXk/view
 
 ## Coursework
 This folder is implemented according to the [videos](https://www.youtube.com/watch?v=gYzHS-n2gqU&list=PLillGF-RfqbYoGoCjKoMOkVznV6aSXKzU) on Youtube from LUT. 
