@@ -1,6 +1,6 @@
 # LUT Front End Course
 
-This repository is made by Bui Khoa, student number is: x106927, student email is: buikhoa793@gmail.com
+This repository is made by Bui Khoa, student number is: x108605, student email is: buikhoa793@gmail.com
 
 This repository contains 2 folders: CourseWork and CourseProject
 
